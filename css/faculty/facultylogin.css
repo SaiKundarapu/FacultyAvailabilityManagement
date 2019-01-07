@@ -1,0 +1,94 @@
+a#m1 {
+    margin: 20px;
+    background-color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 12px;
+    color:#795548;
+}
+
+a#m2 {
+    margin: 20px;
+    background-color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 12px;
+    color:#795548;
+}
+
+a#m3 {
+    margin: 20px;
+    background-color: #595088;
+    padding: 2px 5px;
+    border-radius: 12px;
+    color: white;
+}
+
+div#login-header {
+    margin: 100px auto;
+    width: 979px;
+    padding: 0;
+    position: relative;
+}
+
+div#login-wrapper {
+    border-radius: 15px;
+    padding: 10px 50px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+div#login {
+    margin: 30px auto;
+}
+
+table#login-form-table {
+    margin: 20px auto;
+    padding: 10px;
+}
+
+td#username-data {
+    padding: 1px;
+    text-align: center;
+}
+
+td#password-data {
+    padding: 1px;
+    text-align: center;
+}
+
+td#submit-button {
+    padding: 1px;
+    text-align: center;
+}
+
+fieldset#faculty-login {
+    border-color: #795548;
+    border-style: dashed;
+}
+
+legend#faculty-login-legend {
+    font-weight: bolder;
+    font-size: 16px;
+    color: #52493e;
+    text-align: center;
+}
+
+input#submit {
+    color: white;
+    background-color: #595088;
+    border-style: none;
+    margin: 1px;
+    border-radius: 12px;
+    font-size: 15px;
+    padding: 5px 10px;
+}
+
+td#error-msg {
+    padding: 1px;
+}
+
+span#msg {
+    font-size: 13.33px;
+    font-style: italic;
+    color: red;
+    font-weight: bold;
+}

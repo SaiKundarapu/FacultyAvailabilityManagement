@@ -1,0 +1,273 @@
+div#menu-header {
+    margin: 15px auto;
+    width: 326px;
+    padding: 0;
+    position: relative;
+}
+
+div#menu-wrapper {
+    border-radius: 18px;
+    padding: 10px;
+    background-color: #001167;
+    position: relative;
+}
+
+div#menu {
+    font-size: 14px;
+    position: relative;
+}
+
+a#m1 {
+    margin: 20px;
+    background-color: #595088;
+    padding: 2px 5px;
+    border-radius: 12px;
+    color: white;
+}
+
+a#m2 {
+    margin: 20px;
+    background-color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 12px;
+    color:#795548;
+}
+
+div#tt-upload-header {
+    min-width: 1000px;
+    margin-top: 25px;
+}
+
+div#tt-upload-wrapper {
+    padding: 25px 25px 15px 25px;
+    background-color: white;
+}
+
+div#tt-upload-table {
+    padding: 15px;
+    background-color: antiquewhite;
+}
+
+fieldset#tt-data {
+    border-color: #447b92;
+    border-style: solid;
+}
+
+legend#tt-data-legend {
+    font-weight: bolder;
+    font-size: 16px;
+    color: #447b92;
+    text-align: center;
+}
+
+table#tt-input-data {
+    margin-left: 187px;
+}   
+
+table#tt-data-table {
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px;
+    width: 100%;
+    background-color: #d6ebee;
+    font-size: 15px;
+    font-family: serif;
+    display: none;
+}
+
+div#error-msg {
+    padding-bottom: 10px;
+}
+
+span#msg {
+    font-size: 13.33px;
+    font-style: italic;
+    color: red;
+    font-weight: bold;
+}
+
+td#dept-data {
+    padding-top: 5px;
+}
+
+span#mtech-year-list {
+    display: none;
+}
+
+td#year-data {
+    padding-top: 5px;
+}
+
+td#sec-data {
+    padding-top: 5px;
+}
+
+td#sem-data {
+    padding-top: 5px;
+}
+
+input#button1 {
+    margin-left: 350px;
+    margin-top: 10px;
+}
+
+tr.row.head {
+    background-color: #447b92;
+    color: white;
+    height: 30px;
+}
+
+
+td.column.column0 {
+    background-color: #447b92;
+    color: white;
+    height: 35px;
+    text-align: center;
+}
+
+.column:hover {
+    cursor: pointer;
+}
+
+th.column0 {
+    background: #d6ebee;
+}
+
+td.column.column0:hover {
+    cursor: default;
+}
+
+td.column {
+    color: #447b9b;
+    background-color: #b5b5b554;
+}
+
+
+div#period-no {
+    border-bottom-style: outset;
+    border-bottom-width: thin;
+}
+
+div#break {
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  height: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: .6s linear .6s;
+}
+.overlay div::before,
+.overlay div::after {
+  position: fixed;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: calc(100% / 6);
+  background: rgba(0, 0, 0, .7);
+  transform: rotateX(-270deg);
+  transition: .3s linear;
+}
+.overlay div:nth-child(1)::before {
+  top: 0;
+}
+.overlay div:nth-child(1)::after {
+  top: calc(100% / 6);
+  transition-delay: .1s;
+}
+.overlay div:nth-child(2)::before {
+  top: calc(100% / 6 * 2);
+  transition-delay: .2s;
+}
+.overlay div:nth-child(2)::after {
+  top: calc(100% / 6 * 3);
+  transition-delay: .3s;
+}
+.overlay div:nth-child(3)::before {
+  top: calc(100% / 6 * 4);
+  transition-delay: .4s;
+}
+.overlay div:nth-child(3)::after {
+  bottom: 0;
+  transition-delay: .5s;
+}
+.overlay.is-open {
+  opacity: 1;
+  visibility: visible;
+  transition: .6s linear;
+}
+.overlay.is-open div::before,
+.overlay.is-open div::after {
+  transform: rotateX(0);
+}
+
+.period-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  padding: 1em 2.5em;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #000;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: .2s ease-in-out;
+  transform: translate(-50%, -50%);
+}
+.period-overlay.is-open {
+  opacity: 1;
+  visibility: visible;
+}
+
+form#overlaydata {
+    font-family: serif;
+    font-size: 19px;
+}
+
+span#overlay-msg {
+  font-size: 13.33px;
+  font-style: italic;
+  color: red;
+  font-weight: bold;
+}
+
+td#course-data {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+div#course-list {
+    height: 100px;
+    overflow: auto;
+    border: 1px solid #447b92;
+    background-color: #e5ebf2;
+    color: #2c314a;
+    font-weight: 550;
+    font-size: 12px;
+    padding-left: 3px;
+    text-align: left;
+}
+
+input[type="checkbox"]:checked + label {
+    color: red;
+}
+
+div#course-heading{
+    text-align: center;
+    border: 1px solid #447b92;
+    background-color: #e5ebf2;
+    color: #2c314a;
+    font-weight: 550;
+    font-size: 12px;
+    padding-left: 3px;
+}

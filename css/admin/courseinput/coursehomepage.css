@@ -1,0 +1,107 @@
+div#menu-header {
+    margin: 15px auto;
+    width: 289px;
+    padding: 0;
+    position: relative;
+}
+
+div#menu-wrapper {
+    border-radius: 18px;
+    padding: 10px;
+    background-color: #001167;
+    position: relative;
+}
+
+div#menu {
+    font-size: 14px;
+    position: relative;
+}
+
+a#m1 {
+    margin: 20px;
+    background-color: #595088;
+    padding: 2px 5px;
+    border-radius: 12px;
+    color: white;
+}
+
+a#m2 {
+    margin: 20px;
+    background-color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 12px;
+    color:#795548;
+}
+
+div#course-upload-header {
+    min-width: 1000px;
+    margin-top: 25px;
+}
+
+div#course-upload-wrapper {
+    padding: 25px 25px 15px 25px;
+    background-color: white;
+}
+
+div#course-upload-table {
+    padding: 15px;
+    background-color: antiquewhite;
+}
+
+fieldset#course-data {
+    border-color: #447b92;
+    border-style: solid;
+}
+
+legend#course-data-legend {
+    font-weight: bolder;
+    font-size: 16px;
+    color: #447b92;
+    text-align: center;
+}
+
+table#course-data-table {
+   margin-left: 355px;
+}
+
+td#error-msg {
+    padding-bottom: 10px;
+}
+
+span#msg {
+    font-size: 13.33px;
+    font-style: italic;
+    color: red;
+    font-weight: bold;
+}
+
+td#dept-data {
+    padding-top: 5px;
+}
+
+td#year-data {
+    padding-top: 5px;
+}
+
+td#sem-data {
+    padding-top: 5px;
+}
+td#ele-data{
+    padding-top: 5px;
+}
+
+td#subject-full-data {
+    padding-top: 5px;
+}
+
+td#subject-short-data {
+    padding-top: 5px;
+}
+
+td#type-data {
+    padding-top: 5px;
+}
+
+td#button {
+    padding: 10px 0px 0px 30px;
+}

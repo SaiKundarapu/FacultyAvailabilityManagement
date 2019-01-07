@@ -1,0 +1,174 @@
+.overlay,
+.overlay::before,
+.overlay::after {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  height: 100%;
+}
+.overlay {
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: .3s linear;
+}
+.overlay::before,
+.overlay::after {
+  left: 50%;
+  content: '';
+  width: 200%;
+  margin-left: -100%;
+  background: rgba(0, 0, 0, .45);
+  transform: skewX(-30deg) translateX(-100%);
+  transition: transform .3s linear .3s;
+}
+.overlay.is-open {
+  opacity: 1;
+  visibility: visible;
+}
+.overlay.is-open::before {
+  transform: skewX(-30deg) translateX(0);
+  transition: transform .3s linear;
+}
+.overlay.is-open::after {
+  transform: skewX(-30deg) translateX(0);
+  transition: transform .3s linear .15s;
+}
+
+.modify-overlay {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 10;
+  padding: 1em 2.5em;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  color: #000;
+  text-align: center;
+  transition: .2s ease-in-out;
+  transform: translate(-50%, -50%);
+}
+
+tbody#faculty-data-body {
+    text-align: left;
+}
+
+form#overlaydata {
+    font-family: serif;
+    font-size: 16px;
+}
+
+div#faculty-upload-header {
+    min-width: 900px;
+}
+
+div#faculty-upload-wrapper {
+    padding: 25px 25px 15px 25px;
+    background-color: white;
+}
+
+div#faculty-upload-table {
+    padding: 15px;
+    background-color: antiquewhite;
+}
+
+fieldset#faculty-data {
+    border-color: #447b92;
+    border-style: solid;
+}
+
+legend#faculty-data-legend {
+    font-weight: bolder;
+    font-size: 16px;
+    color: #447b92;
+    text-align: center;
+}
+
+
+td#error-msg {
+    padding-bottom: 10px;
+}
+
+span#msg {
+    font-size: 13.33px;
+    font-style: italic;
+    color: red;
+    font-weight: bold;
+}
+
+
+td#name-data1 {
+    padding: 10px 2px 2px 150px;
+}
+
+td#name-data2 {
+    padding-top: 10px;
+}
+
+td#name-data3 {
+    padding-top: 10px;
+}
+
+td#gender-data {
+    padding: 10px 2px 2px 150px;
+}
+
+td#title-data {
+    padding: 10px 2px 2px 2px;
+}
+
+td#id-data {
+    padding: 10px 2px 2px 150px;
+}
+
+td#email-data {
+    padding: 10px 2px 2px 2px;
+}
+
+td#phno-data {
+    padding: 10px 2px 2px 2px;
+}
+
+td#degree-data{
+    padding: 10px 2px 2px 150px;
+}
+
+td#dept-data {
+    padding: 10px 2px 2px 2px;
+}
+
+td#course-data {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+td#button {
+    padding: 10px 0px 0px 35px;
+}
+
+div#course-list {
+    height: 100px;
+    overflow: auto;
+    border: 1px solid #447b92;
+    background-color: #e5ebf2;
+    color: #2c314a;
+    font-weight: 550;
+    font-size: 12px;
+    padding-left: 3px;
+}
+
+input[type="checkbox"]:checked + label {
+    color: red;
+}
+
+div#course-heading{
+    text-align: center;
+    border: 1px solid #447b92;
+    background-color: #e5ebf2;
+    color: #2c314a;
+    font-weight: 550;
+    font-size: 12px;
+    padding-left: 3px;
+}

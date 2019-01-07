@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>Faculty Availability Report</title>
+		<meta http-equiv="Content-Type" content="text/html;charset="UTF-8">
+		<meta name="author" content="SAI,ONKAR,RAHUL">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="./css/homepage.css"></link>
+		<script type="text/javascript" src="./js/datetime.js"></script>
+
+	</head>
+	<body>
+		<!--Time-Date Bar Begin-->
+		<div id="date-bar">
+			<span id="date"></span>
+		</div>
+		<!--Time-Date Bar End-->
+
+		<!--Logo Begin-->
+		<div id="logo-header">
+			<div id="logo-wrapper">
+				<a id="logo"></a>
+			</div>
+		</div>
+		<!--Logo End-->
+
+		<!--MenuBar Begin-->
+		<div id="menu-header">
+			<div id="menu-wrapper">
+				<div id="menu">
+					<a id="m1">Home</a>
+					<a href="./src/admin/adminlogin.php" id="m2">Administrator</a>
+					<a href="./src/faculty/facultylogin.php" id="m3">Faculty</a>
+				</div>
+			</div>
+		</div>
+		<!--MenuBar End-->
+		<div class="content">
+			<div class="grid">
+				<figure class="effect-duke" onclick="window.location.href = './src/admin/adminlogin.php'">
+					<img src="../images/admin_login.png" alt="img27"/>
+					<figcaption>
+						<h2>ADMIN</span></h2>
+						<p>An administrator is a person whose job involves adding and modifing the details of institution like department, branch, course, faculty,timetable and helping to supervise the workload of faculty and generating their availability reports.</p>
+					</figcaption>			
+				</figure>
+				<figure class="effect-duke" onclick="window.location.href = './src/faculty/facultylogin.php'">
+					<img src="../images/faculty_login.png" alt="img17"/>
+					<figcaption>
+						<h2>Faculty</h2>
+						<p>Faculty, the academic staff of a institution whose job involves modifing his workload based his availability.</p>
+					</figcaption>			
+				</figure>
+			</div>
+		</div>
+
+		<script type="text/javascript">window.onload=dateTime();</script>
+	</body>
+</html>

@@ -1,0 +1,150 @@
+div#menu-header {
+    margin: 15px auto;
+    width: 289px;
+    padding: 0;
+    position: relative;
+}
+
+div#menu-wrapper {
+    border-radius: 18px;
+    padding: 10px;
+    background-color: #001167;
+    position: relative;
+}
+
+div#menu {
+    font-size: 14px;
+    position: relative;
+}
+
+a#m1 {
+    margin: 20px;
+    background-color: #595088;
+    padding: 2px 5px;
+    border-radius: 12px;
+    color: white;
+}
+
+a#m2 {
+    margin: 20px;
+    background-color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 12px;
+    color:#795548;
+}
+
+div#faculty-upload-header {
+    min-width: 1000px;
+    margin-top: 25px;
+}
+
+div#faculty-upload-wrapper {
+    padding: 25px 25px 15px 25px;
+    background-color: white;
+}
+
+div#faculty-upload-table {
+    padding: 15px;
+    background-color: antiquewhite;
+}
+
+fieldset#faculty-data {
+    border-color: #447b92;
+    border-style: solid;
+}
+
+legend#faculty-data-legend {
+    font-weight: bolder;
+    font-size: 16px;
+    color: #447b92;
+    text-align: center;
+}
+
+table#faculty-data-table {
+    padding: 0px 15px 10px 15px;
+}
+
+td#error-msg {
+    padding-bottom: 10px;
+}
+
+span#msg {
+    font-size: 13.33px;
+    font-style: italic;
+    color: red;
+    font-weight: bold;
+}
+
+td#name-data1 {
+    padding: 10px 2px 2px 150px;
+}
+
+td#name-data2 {
+    padding-top: 10px;
+}
+
+td#name-data3 {
+    padding-top: 10px;
+}
+
+td#gender-data {
+    padding: 10px 2px 2px 150px;
+}
+
+td#title-data {
+    padding: 10px 2px 2px 2px;
+}
+
+td#id-data {
+    padding: 10px 2px 2px 150px;
+}
+
+td#email-data {
+    padding: 10px 2px 2px 2px;
+}
+
+td#phno-data {
+    padding: 10px 2px 2px 2px;
+}
+
+td#degree-data{
+    padding: 10px 2px 2px 150px;
+}
+
+td#dept-data {
+    padding: 10px 2px 2px 2px;
+}
+
+td#course-data {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+td#button {
+    padding: 10px 0px 0px 35px;
+}
+
+div#course-list {
+    height: 100px;
+    overflow: auto;
+    border: 1px solid #447b92;
+    background-color: #e5ebf2;
+    color: #2c314a;
+    font-weight: 550;
+    font-size: 12px;
+    padding-left: 3px;
+}
+
+input[type="checkbox"]:checked + label {
+    color: red;
+}
+
+div#course-heading{
+    text-align: center;
+    border: 1px solid #447b92;
+    background-color: #e5ebf2;
+    color: #2c314a;
+    font-weight: 550;
+    font-size: 12px;
+    padding-left: 3px;
+}

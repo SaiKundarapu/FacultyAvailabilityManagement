@@ -1,0 +1,256 @@
+html {
+    min-width: 100%;
+    width: max-content;
+}
+
+body {
+    margin:0;
+    line-height: 135%;
+    background: #e9ebee;
+    font-size: 12px;
+    font-family: Helvetica,Arial,sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover,a:active {
+    color: #0101ff;
+}
+/*------DATE-----*/
+div#date-bar {
+    font-weight: bold;
+    text-align: right;
+    margin: 0 auto;
+    width: 975px;
+    padding: 0px 20px;
+    position: relative;
+}
+
+span#date {
+    color: #6b6155;
+}
+/*------LOGO-----*/
+div#logo-header {
+    background-color: #6b6155;
+    overflow: hidden;
+    margin: 0 auto;
+    width: 975px;
+    padding: 0;
+}
+
+a#logo {
+    background: url("../images/logo.png") 0 0 no-repeat;
+    float: left;
+    position: relative;
+    margin-left: 150px;
+    width: 800px;
+    height: 75px;
+}
+/*------MenuBar-----*/
+div#menu-header {
+    margin: 45px auto;
+    width: 344px;
+    padding: 0;
+    position: relative;
+}
+
+div#menu-wrapper {
+    border-radius: 18px;
+    padding: 10px;
+    background-color: #001167;
+    position: relative;
+}
+
+div#menu {
+    font-size: 14px;
+    position: relative;
+}
+
+a#m1 {
+    margin: 20px;
+    background-color: #595088;
+    padding: 2px 5px;
+    border-radius: 12px;
+    color: white;
+}
+
+a#m2 {
+    margin: 20px;
+    background-color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 12px;
+    color: #795548;
+}
+
+a#m3 {
+    margin: 20px;
+    background-color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 12px;
+    color: #795548;
+}
+
+*, *:after, *:before {-webkit-box-sizing: border-box;box-sizing: border-box;}
+.clearfix:before, .clearfix:after { display: table; content: ''; }
+.clearfix:after { clear: both; }
+
+.grid {
+    position: relative;
+    clear: both;
+    margin: 0 auto;
+    padding: 1em 0 4em;
+    max-width: 1000px;
+    list-style: none;
+    text-align: center;
+}
+
+/* Common style */
+.grid figure {
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin: 10px 1%;
+    min-width: 320px;
+    max-width: 480px;
+    max-height: 360px;
+    width: 50%;
+    height: auto;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+.grid figure img {
+    position: relative;
+    /* display: block; */
+    min-height: 100%;
+    max-width: 100%;
+    opacity: 0.8;
+}
+
+.grid figure figcaption {
+    padding: 2em;
+    color: #fff;
+    font-size: initial;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.grid figure figcaption::before,
+.grid figure figcaption::after {
+    pointer-events: none;
+}
+
+.grid figure figcaption,
+.grid figure figcaption > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+.grid figure figcaption > a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+
+.grid figure h2 {
+    word-spacing: -0.15em;
+    font-weight: 300;
+}
+
+.grid figure h2 span {
+    font-weight: 800;
+}
+
+.grid figure h2,
+.grid figure p {
+    opacity: 0;
+    margin: 0;
+    color: #276aa5;
+}
+
+.grid figure p {
+    letter-spacing: 1px;
+    font-size: 68.5%;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+figure.effect-duke {
+    /* background: -webkit-linear-gradient(-45deg, #34495e 0%,#cc6055 100%); */
+    background: linear-gradient(-45deg, #001167 0%,#6b6155 100%);
+}
+
+figure.effect-duke img,
+figure.effect-duke p {
+    /* -webkit-transition: opacity 0.35s, -webkit-transform 0.35s; */
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-duke:hover img {
+    opacity: 0.3;
+    -webkit-transform: scale3d(2,2,1);
+    transform: scale3d(2,2,1);
+}
+
+figure.effect-duke h2 {
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: scale3d(0.8,0.8,1);
+    transform: scale3d(0.8,0.8,1);
+    -webkit-transform-origin: 50% 100%;
+    transform-origin: 50% 100%;
+}
+
+figure.effect-duke p {
+    position: absolute;
+    top: 77px;
+    left: 0;
+    padding: 30px;
+    border: 2px solid #e9ebee00;
+    text-transform: none;
+    font-size: 100%;
+    opacity: 0;
+    -webkit-transform: scale3d(0.8,0.8,1);
+    transform: scale3d(0.8,0.8,1);
+    -webkit-transform-origin: 50% -100%;
+    transform-origin: 50% -100%;
+    color: #605d77;
+}
+
+figure.effect-duke:hover {
+    background: white;
+}
+
+figure.effect-duke:hover h2,
+figure.effect-duke:hover p {
+    font-weight: bold;
+    opacity: 1;
+    -webkit-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
+}
+
+/* Media queries */
+@media screen and (max-width: 50em) {
+    .content {
+        padding: 0 10px;
+        text-align: center;
+    }
+    .grid figure {
+        display: inline-block;
+        float: none;
+        margin: 10px auto;
+        width: 100%;
+    }
+}

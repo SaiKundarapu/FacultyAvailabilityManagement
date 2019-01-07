@@ -1,0 +1,138 @@
+div#menu-header {
+    margin: 15px auto;
+    width: 345px;
+    padding: 0;
+    position: relative;
+}
+
+div#menu-wrapper {
+    border-radius: 18px;
+    padding: 10px;
+    background-color: #001167;
+    position: relative;
+}
+
+div#menu {
+    font-size: 14px;
+    position: relative;
+}
+
+a#m2 {
+    margin: 20px;
+    background-color: #595088;
+    padding: 2px 5px;
+    border-radius: 12px;
+    color: white;
+}
+
+a#m1 {
+    margin: 20px;
+    background-color: #ffffff;
+    padding: 2px 5px;
+    border-radius: 12px;
+    color:#795548;
+}
+
+div#facultymodify-upload-header {
+    min-width: 1000px;
+    margin-top: 25px;
+}
+
+div#facultymodify-upload-wrapper {
+    padding: 25px 25px 15px 25px;
+    background-color: white;
+}
+
+div#facultymodify-upload-table {
+    padding: 15px;
+    background-color: antiquewhite;
+}
+
+fieldset#facultymodify-data {
+    border-color: #447b92;
+    border-style: solid;
+}
+
+legend#facultymodify-data-legend {
+    font-weight: bolder;
+    font-size: 16px;
+    color: #447b92;
+    text-align: center;
+}   
+
+table#facultymodify-data-table {
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px;
+    margin-left: 74px;
+    background-color: #d6ebee;
+    font-size: 15px;
+    font-family: serif;
+}
+
+td#error-msg {
+    padding-bottom: 10px;
+}
+
+span#msg {
+    font-size: 13.33px;
+    font-style: italic;
+    color: red;
+    font-weight: bold;
+}
+
+span#err-msg {
+    font-size: 13.33px;
+    font-style: italic;
+    color: red;
+    font-weight: bold;
+    margin-left: 90px;
+}
+
+tr.row.head {
+    background-color: #447b92;
+    color: white;
+    height: 30px;
+}
+
+
+td.column.column0 {
+    background-color: #447b92;
+    color: white;
+    height: 35px;
+    text-align: center;
+}
+
+th.column0 {
+    background: #d6ebee;
+}
+
+th.column {
+    width: 100px;
+}
+
+td.column {
+    color: #447b9b;
+    background-color: #b5b5b554;
+    text-align: center;
+    width:100px;
+}
+
+a#modify {
+    color: red;
+    text-decoration: underline;
+}
+
+a#delete {
+    color: red;
+    text-decoration: underline;
+}
+
+a#delete:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+a#modify:hover {
+    color: blue;
+    cursor: pointer;
+}
